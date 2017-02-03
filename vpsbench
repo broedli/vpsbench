@@ -74,24 +74,27 @@ function bench_downloads {
 
     bench_dl "CacheFly" \
         http://cachefly.cachefly.net/100mb.test
-
+        
     bench_dl "Linode - Atlanta GA" \
-        http://atlanta1.linode.com/100MB-atlanta.bin
+        http://speedtest.atlanta.linode.com/100MB-atlanta.bin
 
     bench_dl "Linode - Dallas TX" \
-        http://dallas1.linode.com/100MB-dallas.bin
+        http://speedtest.dallas.linode.com/100MB-dallas.bin
 
     bench_dl "Linode - Tokyo JP" \
-        http://tokyo1.linode.com/100MB-tokyo.bin
+        http://speedtest.tokyo.linode.com/100MB-tokyo.bin
+        
+    bench_dl "Linode - Singapore SG" \
+        http://speedtest.singapore.linode.com/100MB-singapore.bin
 
     bench_dl "Linode - London UK" \
         http://speedtest.london.linode.com/100MB-london.bin
 
+    bench_dl "Linode - Frankfurt DE" \
+        http://speedtest.frankfurt.linode.com/100MB-frankfurt.bin
+
     bench_dl "Leaseweb - Haarlem NL" \
         http://mirror.leaseweb.com/speedtest/100mb.bin
-
-    bench_dl "Softlayer - Singapore" \
-        http://speedtest.sng01.softlayer.com/downloads/test100.zip
 
     bench_dl "Softlayer - Seattle WA" \
         http://speedtest.sea01.softlayer.com/downloads/test100.zip
@@ -101,6 +104,21 @@ function bench_downloads {
 
     bench_dl "Softlayer - Washington DC" \
         http://speedtest.wdc01.softlayer.com/downloads/test100.zip
+
+    bench_dl "Softlayer - Amsterdam NL" \
+        http://speedtest.ams01.softlayer.com/downloads/test100.zip  
+
+    bench_dl "Softlayer - Milan IT" \
+        http://speedtest.mil01.softlayer.com/downloads/test100.zip
+
+    bench_dl "Softlayer - Paris FR" \
+        http://speedtest.par01.softlayer.com/downloads/test100.zip
+
+    bench_dl "Softlayer - Seoul KR" \
+        http://speedtest.seo01.softlayer.com/downloads/test100.zip
+        
+    bench_dl "Softlayer - Sydney AU" \
+        http://speedtest.syd01.softlayer.com/downloads/test100.zip
 }
 
 
